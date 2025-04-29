@@ -6,7 +6,7 @@
     --bg-color: #101419;
     --white: #EFE9F4;
     --light-white: rgba(255,255,255,.8);
-    --box-shadow: 0 .5rem 1rem rgba(0,0,0,3);
+    --box-shadow: 0 .5rem 1rem rgb(202, 16, 137);
     --border: .1rem solid rgba(255,255,255,.1);
 }
 
@@ -91,6 +91,11 @@ section{
     z-index: 1000;
 }
 
+.header.active{
+    background: var(--bg-color);
+    box-shadow: var(--box-shadow);
+}
+
 .header .flex{
     padding: 2rem ;
     display: flex;
@@ -138,13 +143,26 @@ section{
     display: none;
 }
 
+.home{
+    background: url(mainPic.jpg);
+    background-position: center;
+    background-size: cover;
+}
 
 
 
+.home .flex{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    min-height: 100vh;
+    flex-wrap: wrap;
+}
 
 
-
-
+.home .flex .content{
+    flex: 1 1 40rem;
+}
 
 
 
