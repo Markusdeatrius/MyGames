@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'); 
+
 
 :root {
     --main-color: #F374AE;
@@ -11,7 +12,7 @@
 }
 
 *{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Press Start 2P", system-ui;
     box-sizing: border-box;
     outline: none; border: none;
     margin: 0; padding: 0;
@@ -104,7 +105,8 @@ section{
 }
 
 .header .flex .logo {
-    font-size: 2rem;
+    margin-left: 40%;
+    font-size:5rem;
     color: var(--white);
 }
 
@@ -120,27 +122,10 @@ section{
 
 .header .flex .btn{
     margin-top: 0;
-
-}
-
-#menu-btn {
-    position: fixed;
-    bottom: 2rem;
-    right: 2rem;
-    z-index: 10000;
-    background:
-        linear-gradient(white, white) top 1.2rem center,
-        linear-gradient(white, white) center center,
-        linear-gradient(white, white) bottom 1.2rem center;
-    background-repeat: no-repeat;
-    background-size: 25px 3px;
-    background-color: var(--main-color);
-    color: var(--white);
-    height: 4.5rem;
-    width: 5rem;
-    border-radius: .5rem;
+    margin-left: 108%;
+    min-width: 17%;
+    font-size: 2.5rem;
     text-align: center;
-    display: none;
 }
 
 .home{
@@ -149,14 +134,13 @@ section{
     background-size: cover;
 }
 
-
-
 .home .flex{
+    margin-left: 50%;
     display: flex;
     align-items: center;
     gap: 2rem;
     min-height: 100vh;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
 }
 
 
@@ -164,11 +148,47 @@ section{
     flex: 1 1 40rem;
 }
 
+.home .flex .content h3{
+    font-size: 10rem;
+    color: var(--white);
+    text-transform: uppercase;
+}
 
+.home .flex .content h3 span{
+    color: var(--main-color);
+    text-transform: uppercase;
 
+}
 
+.home .flex .content p{
+    font-size: 3rem;
+    color: var(--light-white);
+    padding: 1rem 0;
+    line-height: 1.8;
+}
 
+.home .flex .content .btn{
+    height: 20rem;
+    text-align: center;
+    width: 60rem;
+    font-size: 8rem;
+}
 
+.box-containers{
+    margin-top: 150px;
+    display: flex;
+    align-content: space-evenly;
+    
+}
+
+.games .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 27rem);
+    gap: 2rem;
+    align-items: flex-start;
+    justify-content: center;
+    float: left;
+}
 
 
 
@@ -221,6 +241,10 @@ section{
 
     .header .flex .navbar a {
         font-size: 4rem;
+    }
+
+    .home .flex .content h3{
+        font-size: 3.5rem;
     }
 }
 

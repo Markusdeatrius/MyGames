@@ -1,4 +1,3 @@
-let navbar = document.querySelector('.header .flex .navbar')
 let menuBtn = document.querySelector('#menu-btn')
 let header = document.querySelector('.header')
 
