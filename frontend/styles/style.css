@@ -129,7 +129,7 @@ section{
 }
 
 .home{
-    background: url(mainPic.jpg);
+    background: url(../assets/mainPic.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -189,6 +189,14 @@ section{
     justify-content: center;
     float: left;
 }
+
+.logo {
+    width: auto;
+    height: 12rem;
+    margin-left: -30%;
+    cursor: pointer;
+}   
+
 
 
 
