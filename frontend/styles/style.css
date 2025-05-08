@@ -134,6 +134,29 @@ section{
     background-size: cover;
 }
 
+.secondP {
+    background: url(../assets/mainPic.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    min-height: 100vh;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    position: relative;
+    z-index: 1000;
+    padding: 10px;
+}
+.grid-container > div {
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+  }
+
 .home .flex{
     margin-left: 50%;
     display: flex;
@@ -188,6 +211,7 @@ section{
     align-items: flex-start;
     justify-content: center;
     float: left;
+    z-index: 1000;
 }
 
 .logo {
