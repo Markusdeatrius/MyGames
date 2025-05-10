@@ -255,6 +255,7 @@ section{
     text-align: center;
     width: 20rem;
     font-size: 4rem;
+    margin-right: 50%;
 }
 
 .home .flex .content p{
@@ -265,38 +266,36 @@ section{
     
 }
 
-.header .flex .navbar{
-        position: fixed;
-        top: 0; left: -120%;
-        height: 100vh;
-        width: 100%;
-        z-index: 2000;
-        background: var(--black);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 2rem;
-        flex-flow: column;
-        transition: .2s linear;
-    }
-
-    .header .flex .navbar.active{
-        left: 0;
-    }
-
-    .header .flex .navbar a {
-        font-size: 4rem;
-    }
-
-    .home .flex .content h3{
+.home .flex .content h3{
         font-size: 3.5rem;
     }
 }
 
 @media (max-width:450px) {
-    html{
+html{
         font-size: 50%;
-    }
+}
+
+.home .flex .content .btn{
+    height: 12rem;
+    text-align: center;
+    width: 20rem;
+    font-size: 4rem;
+    margin-right: 50%;
+}
+
+.home .flex .content p{
+    font-size: 2rem;
+    color: var(--light-white);
+    padding: 1rem 0;
+    line-height: 1.8;
+    
+}
+
+.home .flex .content h3{
+    font-size: 3rem;
+}
+    
 }
 /* Pro emotikon v logu
 .header .flex .logo i{
