@@ -249,11 +249,23 @@ section{
 }
 
 @media (max-width:768px) {
-    #menu-btn{
-        display: inline-block;
-    }
 
-    .header .flex .navbar{
+.home .flex .content .btn{
+    height: 12rem;
+    text-align: center;
+    width: 20rem;
+    font-size: 4rem;
+}
+
+.home .flex .content p{
+    font-size: 2rem;
+    color: var(--light-white);
+    padding: 1rem 0;
+    line-height: 1.8;
+    
+}
+
+.header .flex .navbar{
         position: fixed;
         top: 0; left: -120%;
         height: 100vh;
