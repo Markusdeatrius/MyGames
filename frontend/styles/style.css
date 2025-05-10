@@ -275,6 +275,15 @@ section{
 html{
         font-size: 50%;
 }
+.header .flex .btn{
+    margin-top: 0;
+    margin-left: 18%;
+    min-width: 17%;
+    height: 5.5rem;
+    min-height: 10%;
+    font-size: 3rem;
+    text-align: center;
+}
 
 .home .flex .content .btn{
     height: 12rem;
