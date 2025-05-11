@@ -248,7 +248,17 @@ section{
     }
 }
 
-@media (max-width:768px) {
+@media (max-width:991px) {
+
+.header .flex .btn{
+    margin-top: 0;
+    margin-left: 12%;
+    min-width: 17%;
+    height: 7rem;
+    font-size: 4rem;
+    text-align: center;
+
+}
 
 .home .flex .content .btn{
     height: 12rem;
@@ -271,18 +281,18 @@ section{
     }
 }
 
-@media (max-width:450px) {
+@media (max-width:500px) {
 html{
         font-size: 50%;
 }
 .header .flex .btn{
     margin-top: 0;
-    margin-left: 18%;
+    margin-left: 12%;
     min-width: 17%;
-    height: 5.5rem;
-    min-height: 10%;
-    font-size: 3rem;
+    height: 7rem;
+    font-size: 4rem;
     text-align: center;
+
 }
 
 .home .flex .content .btn{
@@ -290,7 +300,7 @@ html{
     text-align: center;
     width: 20rem;
     font-size: 4rem;
-    margin-right: 50%;
+    margin-left: -40%;
 }
 
 .home .flex .content p{
@@ -298,11 +308,13 @@ html{
     color: var(--light-white);
     padding: 1rem 0;
     line-height: 1.8;
-    
+    margin-left: -96%;
+    text-align: center;
 }
 
 .home .flex .content h3{
-    font-size: 3rem;
+    font-size: 4rem;
+    margin-left: -55%;
 }
     
 }
