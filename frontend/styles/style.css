@@ -241,7 +241,7 @@ section{
 
 
 
-
+/* Pro tablety/male notebooky */
 @media (max-width: 1024px) {
   html {
     font-size: 55%;
@@ -281,6 +281,12 @@ section{
     align-items: center;
   } 
 
+    .header .flex .btn {
+    margin-left: 70%;
+    min-width: auto;
+    font-size: 3.7rem;
+  }
+
   .home .flex .content h3 {
     font-size: 6rem;
   }
@@ -307,7 +313,7 @@ section{
   }
 }
 
-/* Extra malé displeje */
+/* Mensi mobily nebo male displaye */
 @media (max-width: 480px) {
   html {
     font-size: 45%;
@@ -319,6 +325,12 @@ section{
 
   .home .flex .content .btn {
     font-size: 3rem;
+  }
+
+    .header .flex .btn {
+    margin-left: 60%;
+    min-width: auto;
+    font-size: 3.7rem;
   }
 }
 /* Pro emotikon v logu
