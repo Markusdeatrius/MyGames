@@ -242,81 +242,84 @@ section{
 
 
 
-@media (max-width:991px) {
-    html{
-        font-size: 55%;
-    }
-}
+@media (max-width: 1024px) {
+  html {
+    font-size: 55%;
+  }
 
-@media (max-width:991px) {
-
-.header .flex .btn{
-    margin-top: 0;
-    margin-left: 12%;
-    min-width: 17%;
-    height: 7rem;
-    font-size: 4rem;
+  .home .flex {
+    margin-left: 0;
+    flex-direction: column;
     text-align: center;
+  }
 
-}
-
-.home .flex .content .btn{
-    height: 12rem;
+    .home .flex .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    width: 20rem;
-    font-size: 4rem;
-    margin-right: 50%;
+    height: 100%;
+    width: 100%;
+  }
+
+  .header .flex .btn {
+    margin-left: 70%;
+    min-width: auto;
+    font-size: 3.7rem;
+  }
 }
 
-.home .flex .content p{
+/* Pro mobily */
+@media (max-width: 768px) {
+  html {
+    font-size: 50%;
+  }
+
+  .header .flex {
+    flex-direction: column;
+    align-items: center;
+  } 
+
+  .home .flex .content h3 {
+    font-size: 6rem;
+  }
+
+  .home .flex .content p {
     font-size: 2rem;
-    color: var(--light-white);
-    padding: 1rem 0;
-    line-height: 1.8;
-    
-}
+  }
 
-.home .flex .content h3{
-        font-size: 3.5rem;
-    }
-}
-
-@media (max-width:500px) {
-html{
-        font-size: 50%;
-}
-.header .flex .btn{
-    margin-top: 0;
-    margin-left: 12%;
-    min-width: 17%;
-    height: 7rem;
+  .home .flex .content .btn {
+    width: 100%;
     font-size: 4rem;
+    height: auto;
+    padding: 2rem;
+  }
+
+  .home .flex .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-
+    height: 100%;
+    width: 100%;
+  }
 }
 
-.home .flex .content .btn{
-    height: 12rem;
-    text-align: center;
-    width: 20rem;
-    font-size: 4rem;
-    margin-left: -40%;
-}
+/* Extra malé displeje */
+@media (max-width: 480px) {
+  html {
+    font-size: 45%;
+  }
 
-.home .flex .content p{
-    font-size: 2rem;
-    color: var(--light-white);
-    padding: 1rem 0;
-    line-height: 1.8;
-    margin-left: -96%;
-    text-align: center;
-}
+  .home .flex .content h3 {
+    font-size: 4.5rem;
+  }
 
-.home .flex .content h3{
-    font-size: 4rem;
-    margin-left: -55%;
-}
-    
+  .home .flex .content .btn {
+    font-size: 3rem;
+  }
 }
 /* Pro emotikon v logu
 .header .flex .logo i{
