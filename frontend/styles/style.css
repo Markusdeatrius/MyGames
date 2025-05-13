@@ -239,6 +239,52 @@ section{
 
 
 
+@media (max-width: 1750px) {
+  html {
+    font-size: 75%;
+  }
+
+  .home .flex {
+    margin-left: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+  }
+
+  .home .flex .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    max-width: 90%;
+    padding: 2rem;
+  }
+
+  .header .flex .btn {
+    margin-left: 0;
+    font-size: 3.7rem;
+    min-width: auto;
+  }
+
+  .home .flex .content .btn {
+    width: 40rem;
+    font-size: 4rem;
+    height: auto;
+    padding: 2rem;
+    margin: 2rem 0 0 0;
+  }
+}
+
+
+
+
+
+
+
 
 
 /* Pro tablety/male notebooky */
