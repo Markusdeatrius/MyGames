@@ -1,6 +1,8 @@
 version: '3'
 services:
-  db:
-    image: mysql:5.7
+  backend:
+    build: ./backend
+    
+    container_name: backend
     ports:
-      - "3306:3306"
+      - "3000:3000"
