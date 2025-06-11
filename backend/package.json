@@ -1,0 +1,25 @@
+{
+  "name": "mygames",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Markusdeatrius/MyGames#readme",
+  "bugs": {
+    "url": "https://github.com/Markusdeatrius/MyGames/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Markusdeatrius/MyGames.git"
+  },
+  "license": "MIT",
+  "author": "Marek Vyletal",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "sqlite3": "^5.1.7"
+  }
+}
