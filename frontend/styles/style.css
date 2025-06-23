@@ -135,7 +135,7 @@ section{
 }
 
 .secondP {
-    background: url(../assets/gameChoose.png);
+    background: linear-gradient(to right, #010721, #2C003E);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
