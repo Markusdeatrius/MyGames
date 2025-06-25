@@ -117,7 +117,3 @@ input[type="password"]:focus {
   border-color: var(--main-color);
   box-shadow: 0 0 1rem var(--main-color);
 }
-
-.backArrow{
-  vertical-align: bottom;
-}
